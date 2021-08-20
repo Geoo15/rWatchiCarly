@@ -1,0 +1,126 @@
+@import url('css2.css');
+@import url('css2-1.css');
+@import url('css2-2.css');
+@import url('css2-3.css');
+@import url('css2-4.css');
+@import url('css2-5.css');
+@import url('css2-6.css');
+@import url('css2-7.css');
+@import url('css2-8.css');
+
+.text {
+  font-family: Raleway;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+body {
+  text-align: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #000000 0%, #000000 46%, #404040 100%);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  top: 400px;
+}
+
+.centerText {
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 75px;
+  color: white;
+  font-family: Raleway;
+  font-weight: 800;
+  position: relative;
+}
+
+#loadOverlay{display: none;}
+
+.tutorialvideos {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 12px;
+
+}
+
+/* button.cool*/
+button.cool {
+    border: none;
+    text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 140px;
+    margin: 5px 12px;
+    text-align: center;
+    cursor: pointer;
+      color: #000000;
+      font-family: "Raleway";
+    font-size: 16px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+    outline: none;
+    transition-duration: 0.25s; /*css requires transition duration on everything*/
+}
+
+.buttontext {
+  color: black; /* enjoy */
+  font-weight: 600;
+}
+
+.buttondisabledtext {
+  color: grey; /* enjoy */
+  font-weight: 600;
+}
+
+button.cool:hover {
+    transform: scale(1.06);
+    transition-duration: 0.25s;
+}
+
+button.cool:active {
+    transform: scale(0.94);
+    transition-duration: 0.25s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* more css code from gdcolon.com */
+div.box {
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto 30 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 7px 6px 2px rgba(0, 0, 0, 0.1);
+    padding: 10 0;
+}
+
+div.sideBySide {
+  display: inline-block;
+}
+
+button.uncool {
+    border: none;
+    text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 140px;
+    margin: 5px 12px;
+    text-align: center;
+    cursor: pointer;
+      color: #000000;
+      font-family: "Raleway";
+    font-size: 16px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+    outline: none;
+    transition-duration: 0.25s; /*css requires transition duration on everything */
+    cursor: not-allowed;
+}
